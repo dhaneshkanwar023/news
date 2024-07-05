@@ -146,27 +146,27 @@ class _latestnewState extends State<latestnew> {
           ],
         ),
       ),
-       body: SingleChildScrollView(scrollDirection: Axis.horizontal,
-        child: Column(crossAxisAlignment: CrossAxisAlignment.start,
-         children: [
-         Padding(padding: const EdgeInsets.symmetric(horizontal: 3, vertical: 70),
-         child: Text('Latest News',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50, color: Colors.black),),),
-           SizedBox(height: 10),
-
-
-           Row(
-             children: [
-               ListTile(
-                 leading: Icon(Icons.add_a_photo),
-                 title:Text("Photo"),
-                 subtitle: Text("Icons.arrow_forword_ios"),
-
-               ),
-             ],
-           )
-        ],
-       ),
-      ),
+      //  body: SingleChildScrollView(scrollDirection: Axis.horizontal,
+      //   child: Column(crossAxisAlignment: CrossAxisAlignment.start,
+      //    children: [
+      //    Padding(padding: const EdgeInsets.symmetric(horizontal: 3, vertical: 70),
+      //    child: Text('Latest News',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50, color: Colors.black),),),
+      //      SizedBox(height: 10),
+      //
+      //
+      //      Row(
+      //        children: [
+      //          ListTile(
+      //            leading: Icon(Icons.add_a_photo),
+      //            title:Text("Photo"),
+      //            subtitle: Text("Icons.arrow_forword_ios"),
+      //
+      //          ),
+      //        ],
+      //      )
+      //   ],
+      //  ),
+      // ),
 
 
     );
